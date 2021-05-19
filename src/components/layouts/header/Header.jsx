@@ -14,22 +14,22 @@ export default function Header() {
           <ul>
             <li>
               <h4>
-                <Link to="/">소개</Link>
+                <Link to="/intro">소개</Link>
               </h4>
             </li>
             <li>
               <h4>
-                <Link to="/">커뮤니티</Link>
+                <Link to="/community">커뮤니티</Link>
               </h4>
             </li>
             <li>
               <h4>
-                <Link to="/">랭킹</Link>
+                <Link to="/ranking">랭킹</Link>
               </h4>
             </li>
             <li>
               <h4>
-                <Link to="/">고객센터</Link>
+                <Link to="/service">고객센터</Link>
               </h4>
             </li>
           </ul>

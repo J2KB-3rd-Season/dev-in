@@ -6,6 +6,7 @@
 }
 a {
   text-decoration: none;
+  color: $color-primary-black;
   
 }
 a:hover {
@@ -16,7 +17,7 @@ a:visited {
 }
 body {
   // padding: 10px;
-  background-color: #f8f9fa;
+  background-color: white;
   font-family: 'Gothic A1', sans-serif;
 }
 

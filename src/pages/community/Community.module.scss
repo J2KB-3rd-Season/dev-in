@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  height: 100%;
+  max-width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.navProfile{
+  padding: 20px;
+}
+.navTools {
+  margin: 20px;
+  input {
+    border-radius: 5px;
+    padding: 5px;
+  }
+}
+
+.boxContainer {
+  max-width: calc(100% + 2px);
+  display: flex;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
