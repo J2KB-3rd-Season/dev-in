@@ -36,9 +36,11 @@ export default function Header() {
           <input type="text" placeholder="내용을 입력해주세요." />
         </div>
         <div>
-          <ul className={styles.navList}>
+          <ul className={styles.headerTools}>
             <li>
-              <Link to="/user">my page</Link>
+              <Link to="/user">
+                <img src="" alt="" />
+              </Link>
             </li>
           </ul>
         </div>

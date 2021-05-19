@@ -1,0 +1,42 @@
+@import "../../variables.scss";
+.box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $dev-in-blue;
+    color: $color-primary-black;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    .boxTitle{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+
+    }
+    .boxContent{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+
+    }
+    .boxBottom{
+        display: flex;
+        align-items: center;
+        ul {
+            display: flex;
+            li{
+                background-color: $dev-in-blue;
+                color: $color-primary-white;
+                padding: 5px 15px;
+                border-radius: 10px;
+                margin-right: 10px;
+            }
+        }
+        h5{
+            font-weight: 500;
+            color: $dev-in-blue;
+
+        }
+    }
+}

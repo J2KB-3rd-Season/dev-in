@@ -1,0 +1,29 @@
+@import "../../variables.scss";
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: $dev-in-blue;
+    color: $color-primary-white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    .boxTitle{
+        
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+        img{
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            background: #c4c4c4;
+        }
+        :nth-child(n){
+            margin-right: 8px;
+        }
+    }
+    .boxContent{
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -17,11 +17,30 @@ header {
   .headerMain{
     flex-grow: 1;
     display: flex;
+    align-items: center;
     justify-content: space-around;
     li {
       float: left;
       margin-right: 30px;
+      h4{
+        font-weight: 400;
+      }
+    }
+    input{
+      padding: 15px 50px;
+      border-radius: 10px;
+      background: #F8F9FA;
+      border: none;
+      outline: none;
     }
   }
 }
 
+.headerTools{
+  img{
+    background: #c4c4c4;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+}
