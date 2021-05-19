@@ -1,0 +1,27 @@
+header {
+  width: 100%;
+  height: 60px;
+  padding: 20px; 
+  box-sizing: border-box;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  .headerTitle{
+    h2{
+    }
+  }
+
+  .headerMain{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    li {
+      float: left;
+      margin-right: 30px;
+    }
+  }
+}
+

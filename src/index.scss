@@ -1,0 +1,52 @@
+@import "./variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;300;400;500;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  
+}
+a:hover {
+  color: $color-primary-black;
+}
+a:visited {
+  color: $color-primary-black;
+}
+body {
+  // padding: 10px;
+  background-color: #f8f9fa;
+  font-family: 'Gothic A1', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.wrap-container {
+  max-width: 1200px;
+}
+.wrapContainerMain {
+}
+.dev-line {
+  border: 1px solid black;
+}
+
+ul {
+  list-style:none;
+  padding-left:0px;
+
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-button {
+  width: 1px;
+  height: 1px;
+}
+
