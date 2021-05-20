@@ -31,23 +31,23 @@ export default function Main() {
             <img src="" alt="" />
             <div>개발왕</div>
           </div>
-          <div>
+          <div className={styles.exper}>
             경험치경험치경험치경험치
           </div>
           <div>
-            <div>
+          <div className={styles.tag}>
               #react
             </div>
-            <div>
+            <div className={styles.tag}>
               #react
             </div>
-            <div>
+            <div className={styles.tag}>
               #react
             </div>
-            <div>
+            <div className={styles.tag}>
               #react
             </div>
-            <div>
+            <div className={styles.tag}>
               #react
             </div>
           </div>
@@ -61,23 +61,23 @@ export default function Main() {
             <img src="" alt="" />
             <div>개발왕</div>
           </div>
-          <div>
+          <div className={styles.exper}>
             경험치경험치경험치경험치
           </div>
           <div>
-            <div>
+            <div className={styles.tag}>
               #react
             </div>
-            <div>
+            <div className={styles.tag}>
               #react
             </div>
-            <div>
+            <div className={styles.tag}>
               #react
             </div>
-            <div>
+            <div className={styles.tag}>
               #react
             </div>
-            <div>
+            <div className={styles.tag}>
               #react
             </div>
           </div>
@@ -92,23 +92,23 @@ export default function Main() {
             <img src="" alt="" />
             <div>개발왕</div>
           </div>
-          <div>
+          <div className={styles.exper}>
             경험치경험치경험치경험치
           </div>
           <div>
-            <div>
+          <div className={styles.tag}>
               #react
             </div>
-            <div>
+            <div className={styles.tag}>
               #react
             </div>
-            <div>
+            <div className={styles.tag}>
               #react
             </div>
-            <div>
+            <div className={styles.tag}>
               #react
             </div>
-            <div>
+            <div className={styles.tag}>
               #react
             </div>
           </div>
@@ -123,23 +123,23 @@ export default function Main() {
             <img src="" alt="" />
             <div>개발왕</div>
           </div>
-          <div>
+          <div className={styles.exper}>
             경험치경험치경험치경험치
           </div>
           <div>
-            <div>
+          <div className={styles.tag}>
               #react
             </div>
-            <div>
+            <div className={styles.tag}>
               #react
             </div>
-            <div>
+            <div className={styles.tag}>
               #react
             </div>
-            <div>
+            <div className={styles.tag}>
               #react
             </div>
-            <div>
+            <div className={styles.tag}>
               #react
             </div>
           </div>
