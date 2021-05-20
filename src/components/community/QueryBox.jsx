@@ -13,7 +13,7 @@ export default function QueryBox() {
                 <div>
                     OOO을 잘 하려면 어떤 방법으로 공부를 해야 할까요?
                 </div>
-                <div>
+                <div className={styles.boxContentAnswer}>
                     답변 0
                 </div>
             </div>

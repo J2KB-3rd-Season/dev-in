@@ -18,6 +18,9 @@
             height: 40px;
             background: #c4c4c4;
         }
+        h6{
+            font-weight: 400;
+        }
         :nth-child(n){
             margin-right: 8px;
         }
@@ -25,5 +28,9 @@
     .boxContent{
         display: flex;
         justify-content: space-between;
+
+        .boxContentAnswer{
+            font-weight: 300;
+        }
     }
 }

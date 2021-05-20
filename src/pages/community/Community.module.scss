@@ -10,15 +10,17 @@
   .headerBoxWait{
     margin-right: 14px;
     flex-grow: 1;
-    h3 {
+    h2 {
       margin-bottom: 20px;
+      font-weight: 400;
     }
   }
   .headerBoxInterest {
     margin-left: 14px;
     flex-grow: 1;
-    h3 {
+    h2 {
       margin-bottom: 20px;
+      font-weight: 400;
     }
   }
 }
@@ -32,10 +34,14 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
+    h2{
+      font-weight: 400;
+    }
     ul{
       display: flex;
       li{
-        margin-right: 15px;
+        margin-left: 15px;
+        color: #ADB5BD
       }
     }
   }
