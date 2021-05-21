@@ -1,9 +1,10 @@
 import React from 'react'
+import styles from './Intro.module.scss'
 
-export default function Main() {
+export default function Intro() {
   return (
     <div>
-      main
+      소개
     </div>
   )
 }

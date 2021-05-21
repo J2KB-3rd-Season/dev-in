@@ -1,34 +1,123 @@
+@import "../../variables.scss";
+
 .container {
   display: flex;
   height: 100%;
   max-width: 100%;
   flex-direction: column;
-  justify-content: center;
 }
 
 .navContainer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-}
-
-
-.navProfile{
-  padding: 20px;
-}
-.navTools {
-  margin: 20px;
-  input {
-    border-radius: 5px;
-    padding: 5px;
+  .questionBox{
+    margin-right: 10px;
+    flex-grow: 1;
+    h4{
+      margin : 20px 0px 5px 0px;
+    }
+    .title, .tag{
+      width:770px;
+      height:50px;
+      background: #FFFFFF;
+      border: 1px solid #DEE2E6;
+      box-sizing: border-box;
+      border-radius: 10px;
+      padding : 15px;
+    }
+    .contentsBox{
+      width: 770px;
+      height: 350px;      
+      background: #FFFFFF;      
+      border: 1px solid #DEE2E6;
+      box-sizing: border-box;
+      border-radius: 10px;
+      ul{
+        height: 25px;
+        padding:10px;
+      }
+    }
+    .contents{
+      border: none;
+      resize: none;
+      width: 720px;
+      height: 270px;
+      margin : 10px 20px 10px 20px;
+    }
+    .preview{
+      width: 770px;
+      height: 180px;
+      background: #F8F9FA;
+      border-radius: 10px;
+      margin-top: 15px; 
+      text-align: center;
+      font-size: 20px;
+      color: #868E96;
+     
+    }
   }
-}
 
-.boxContainer {
-  max-width: calc(100% + 2px);
-  display: flex;
-  align-items: center;
-  overflow-y: hidden;
+  ul li {
+    list-style-type: none; 
+    display:inline;
+    margin-left: 20px;
+    }
+  hr{
+    border: 1px solid #DEE2E6;
+  }
+
+  .adBox{
+    width: 382px;
+    height: 170px;
+    background: #4F72F2;
+    border-radius: 10px;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .viewMore{
+    flex:none;
+    flex-grow:0;
+    font-size: 14px;
+    color: #5E80F7;
+    margin-left:20px;
+    
+  }
+  .buttonBox{
+    width:770px;
+    text-align: right;
+    margin-top: 50px;
+  }
+  .temporaryStorage{
+    width: 113px;
+    height: 56px;    
+    color: $dev-in-blue;
+    background: #fff;
+    border: 1px solid $dev-in-blue;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .saveQuestion{
+    width: 122px;
+    height: 56px;    
+    color: #F8F9FA;
+    background: $dev-in-blue;
+    border: 1px solid $dev-in-blue;   
+    border-radius: 10px;
+    cursor: pointer;
+   
+  }
+  .sectionBox {
+    margin-left: 10px;
+    flex-grow: 2;
+    .sectionTitle{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      align-items: center;
+    }
+  }
 }
 
 
