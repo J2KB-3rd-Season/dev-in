@@ -1,5 +1,4 @@
 import React from 'react'
-import QueryBox from '../../components/community/QueryBox'
 import NewQuestion from '../../components/main/NewQuestion'
 import UserRanking from '../../components/main/UserRanking'
 import styles from './Main.module.scss'
