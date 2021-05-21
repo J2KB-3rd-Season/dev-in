@@ -15,8 +15,8 @@ export default function NewQuestion() {
                 </ul>
             </div>
             <span className={styles.boxBottom}>
-                <span>답변 0</span>
-                <img src="" alt="" />
+                <span className={styles.replyNum}>답변 0</span>
+                <img src="" alt=""/>
                 <span>홍길동 활동요약 37초전</span>
             </span>
         </div>

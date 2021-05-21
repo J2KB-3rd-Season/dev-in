@@ -34,11 +34,13 @@ img{
     width: 20px;
     height: 20px;
     background: #c4c4c4;
-    margin-left:130px;
 }
 
 .boxBottom{
     color: #868E96;
     margin-top: 5px;
     font-size: 14px;
+    .replyNum{
+        margin-right:140px;
+    }
 }
