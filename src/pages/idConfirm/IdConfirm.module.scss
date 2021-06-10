@@ -1,0 +1,50 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top : 100px;
+    h2{
+      margin-bottom: 30px;
+    }
+    .id{
+      color: #5E80F7;
+    }
+  }
+  .signIn{
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;  
+    color: #F8F9FA;
+    background: #5E80F7;
+    border: 1px solid #F8F9FA;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor:pointer;
+  }
+  
+  .findPwd{
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;  
+    color: #5E80F7;
+    background: #fff;
+    border: 1px solid #5E80F7;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor:pointer;
+  }
+  
+  .askId{
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;  
+    color: #ADB5BD;
+    background: #fff;
+    border: 1px solid #ADB5BD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor:pointer;
+  }
