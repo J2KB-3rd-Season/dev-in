@@ -1,5 +1,6 @@
-import React from 'react'
-import styles from './Ranking.module.scss'
+import React from "react";
+import Tags from "../../components/Tags";
+import styles from "./Ranking.module.scss";
 export default function Main() {
   return (
     <div className={styles.main}>
@@ -10,12 +11,10 @@ export default function Main() {
           <li>월간</li>
           <li>전체</li>
         </ul>
-        <div>
-          랭킹, 티어 제도 알아보기
-        </div>
+        <div>랭킹, 티어 제도 알아보기</div>
       </div>
       <div className={styles.table}>
-        <div className={styles.rowHeader} >
+        <div className={styles.rowHeader}>
           <div>순위</div>
           <div>티어</div>
           <div>유저</div>
@@ -31,25 +30,13 @@ export default function Main() {
             <img src="" alt="" />
             <div>개발왕</div>
           </div>
-          <div className={styles.exper}>
-            경험치경험치경험치경험치
-          </div>
+          <div className={styles.exper}>경험치경험치경험치경험치</div>
           <div>
-          <div className={styles.tag}>
-              #react
-            </div>
-            <div className={styles.tag}>
-              #react
-            </div>
-            <div className={styles.tag}>
-              #react
-            </div>
-            <div className={styles.tag}>
-              #react
-            </div>
-            <div className={styles.tag}>
-              #react
-            </div>
+            <Tags name="react" />
+            <Tags name="react" />
+            <Tags name="react" />
+            <Tags name="react" />
+            <Tags name="react" />
           </div>
         </div>
         <div className={styles.row}>
@@ -61,27 +48,14 @@ export default function Main() {
             <img src="" alt="" />
             <div>개발왕</div>
           </div>
-          <div className={styles.exper}>
-            경험치경험치경험치경험치
-          </div>
+          <div className={styles.exper}>경험치경험치경험치경험치</div>
           <div>
-            <div className={styles.tag}>
-              #react
-            </div>
-            <div className={styles.tag}>
-              #react
-            </div>
-            <div className={styles.tag}>
-              #react
-            </div>
-            <div className={styles.tag}>
-              #react
-            </div>
-            <div className={styles.tag}>
-              #react
-            </div>
+            <Tags name="react" />
+            <Tags name="react" />
+            <Tags name="react" />
+            <Tags name="react" />
+            <Tags name="react" />
           </div>
-          
         </div>
         <div className={styles.row}>
           <div>001</div>
@@ -92,27 +66,14 @@ export default function Main() {
             <img src="" alt="" />
             <div>개발왕</div>
           </div>
-          <div className={styles.exper}>
-            경험치경험치경험치경험치
-          </div>
+          <div className={styles.exper}>경험치경험치경험치경험치</div>
           <div>
-          <div className={styles.tag}>
-              #react
-            </div>
-            <div className={styles.tag}>
-              #react
-            </div>
-            <div className={styles.tag}>
-              #react
-            </div>
-            <div className={styles.tag}>
-              #react
-            </div>
-            <div className={styles.tag}>
-              #react
-            </div>
+            <Tags name="react" />
+            <Tags name="react" />
+            <Tags name="react" />
+            <Tags name="react" />
+            <Tags name="react" />
           </div>
-          
         </div>
         <div className={styles.row}>
           <div>001</div>
@@ -123,29 +84,16 @@ export default function Main() {
             <img src="" alt="" />
             <div>개발왕</div>
           </div>
-          <div className={styles.exper}>
-            경험치경험치경험치경험치
-          </div>
+          <div className={styles.exper}>경험치경험치경험치경험치</div>
           <div>
-          <div className={styles.tag}>
-              #react
-            </div>
-            <div className={styles.tag}>
-              #react
-            </div>
-            <div className={styles.tag}>
-              #react
-            </div>
-            <div className={styles.tag}>
-              #react
-            </div>
-            <div className={styles.tag}>
-              #react
-            </div>
+            <Tags name="react" />
+            <Tags name="react" />
+            <Tags name="react" />
+            <Tags name="react" />
+            <Tags name="react" />
           </div>
-          
         </div>
       </div>
     </div>
-  )
+  );
 }

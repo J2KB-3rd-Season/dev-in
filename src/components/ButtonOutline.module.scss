@@ -1,0 +1,13 @@
+@import "../variables.scss";
+
+.button {
+  width: 100%;
+  height: 56px;
+  color: $dev-in-blue;
+  background: #fff;
+  border: 1px solid $dev-in-blue;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}

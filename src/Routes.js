@@ -7,6 +7,7 @@ import MainLayout from "./layouts/main";
 import IntroContainer from "./pages/intro";
 import RankingContainer from "./pages/ranking";
 import ServiceContainer from "./pages/service";
+import UserContainer from "./pages/_user";
 function Routes(props) {
   return (
     <MainLayout>
@@ -16,6 +17,7 @@ function Routes(props) {
         <Route path="/intro" component={IntroContainer} exact />
         <Route path="/ranking" component={RankingContainer} exact />
         <Route path="/service" component={ServiceContainer} exact />
+        <Route path="/:user" component={UserContainer} exact />
         <Route path="*" component={ErrorContainer} />
       </Switch>
     </MainLayout>
