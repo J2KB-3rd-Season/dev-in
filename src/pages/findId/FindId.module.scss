@@ -1,0 +1,82 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top : 100px;
+    .idBox{
+      width: 65px;
+      height: 45px; 
+      background: #fff;
+      color: #5E80F7;
+      border: 1px solid #5E80F7;
+      box-sizing: border-box;
+      border-radius: 10px;
+      margin-right : 20px;
+      cursor:pointer;
+    }
+    .pwdBox{
+      color: #BBC9FD;
+      border: none;
+      background:none;
+      cursor:pointer;
+    }
+    h2{
+      margin-bottom: 30px;
+    }
+    input{
+      width: 350px;
+      height: 50px;
+      background: #F8F9FA;
+      border-radius: 10px;  
+      border: 1px solid #F8F9FA;
+      box-sizing: border-box;
+      border-radius: 10px;
+      margin-top: 20px;
+      padding : 15px;
+    } 
+    select{
+      width: 80px;
+      height: 50px;
+      border-radius: 10px;  
+      color: #424242;
+      background: #F8F9FA;
+      border: 1px solid #F8F9FA;
+      box-sizing: border-box;
+      border-radius: 10px;
+    }
+    .phoneNum{
+      width: 250px;
+      height: 50px;
+      margin-left: 20px;
+    }
+    .authNum{
+      width: 250px;
+      height: 50px;
+      margin-right: 20px;
+    }
+    .authConfirm{
+      width: 80px;
+      height: 50px;
+      border-radius: 10px;  
+      color: #F8F9FA;
+      background: #BBC9FD;
+      border: 1px solid #F8F9FA;
+      box-sizing: border-box;
+      border-radius: 10px;
+      cursor:pointer;
+    }
+  }
+  
+  .findId{
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;  
+    color: #F8F9FA;
+    background: #5E80F7;
+    border: 1px solid #F8F9FA;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor:pointer;
+  }
+  

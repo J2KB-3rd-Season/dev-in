@@ -1,6 +1,4 @@
 import React from 'react'
-import NewQuestion from '../../components/main/NewQuestion'
-import UserRanking from '../../components/main/UserRanking'
 import styles from './Main.module.scss'
 
 export default function Main() {
@@ -10,7 +8,7 @@ export default function Main() {
         <div className={styles.questionBox}>
           <h2>질문하기</h2>
           <h4>제목</h4>
-          <input type="text" className={styles.title} placeholder="리액트에서 어쩌구 저쩌구 하는데 어떻게 해야 하나요?"></input>
+          <input type="text" className={styles.title} placeholder="리액트에서 어쩌구 저쩌구 하는데 어떻게 해야 하나요?" />
           <h4>내용</h4>
           <div className={styles.contentsBox}>
             <ul>
@@ -28,25 +26,6 @@ export default function Main() {
           <div className={styles.buttonBox}>
             <button className={styles.temporaryStorage}>임시 저장 12</button>
             <button className={styles.saveQuestion}>질문 등록하기</button>
-          </div>
-        </div>
-        <div className={styles.sectionBox}>
-          <div>
-            <span className={styles.sectionTitle}>
-              <h2>새로운 질문</h2>
-              <span className={styles.viewMore}>더보기</span>
-            </span>
-            <NewQuestion />
-            <NewQuestion />
-            <NewQuestion />
-          </div>
-          <div className={styles.adBox}></div>
-          <div>
-            <span className={styles.sectionTitle}>
-              <h2>유저랭킹</h2>
-              <span className={styles.viewMore}>더보기</span>
-            </span>
-            <UserRanking />
           </div>
         </div>
       </div>

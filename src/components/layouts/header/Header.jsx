@@ -39,7 +39,7 @@ export default function Header() {
         <div>
           <ul className={styles.headerTools}>
             <li>
-              <Link to="/user">
+              <Link to="/signIn">
                 <img src="" alt="" />
               </Link>
             </li>
