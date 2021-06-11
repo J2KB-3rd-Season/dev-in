@@ -1,0 +1,136 @@
+.container {
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+}
+
+.profile {
+  padding: 10px;
+}
+
+.profileImg {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  background: #c4c4c4;
+}
+
+.profileName {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.profileSubname {
+  color: #868e96;
+  margin-bottom: 20px;
+}
+
+.profileDesc {
+  margin-bottom: 10px;
+}
+
+.profileTags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  > * {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.profileLinkBox {
+  margin-bottom: 20px;
+}
+
+.proflieButton {
+  width: 100%;
+}
+
+.main {
+  padding: 10px;
+}
+
+.mainTitleBox {
+  display: flex;
+  margin-bottom: 30px;
+}
+.titleBoxCard {
+  flex-grow: 1;
+  margin: 10px;
+  padding: 10px;
+  height: 120px;
+  background-color: #dce5fe;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .CardTitle {
+    color: #5e80f7;
+    font-size: 1.2rem;
+  }
+  .CardDesc {
+    align-self: flex-end;
+    font-size: 2.3rem;
+    font-weight: 700;
+  }
+}
+
+.sectionTitle {
+  display: flex;
+  margin-bottom: 20px;
+  .sectionTitleText {
+    .title {
+      font-size: 2rem;
+      font-weight: 500;
+      margin-right: 10px;
+    }
+    .number {
+      font-size: 1.3rem;
+      font-weight: 500;
+      margin-right: 20px;
+    }
+    display: flex;
+    align-items: center;
+  }
+}
+
+.listArticle {
+  background-color: #f8f9fa;
+  padding: 20px;
+  margin-bottom: 20px;
+  .tagBox {
+    display: flex;
+    margin: 5px 0px;
+    margin-bottom: 40px;
+    > * {
+      margin-right: 5px;
+    }
+  }
+}
+
+.articleList {
+  display: flex;
+  justify-content: space-between;
+}
+.articleListtitle {
+  display: flex;
+}
+.articleListDesc {
+  display: flex;
+  > * {
+    margin-left: 10px;
+  }
+  .ListDescTitle {
+    display: flex;
+    align-items: center;
+  }
+  .ListDescDesc {
+    display: flex;
+    align-items: center;
+    color: #adb5bd;
+    font-size: 0.8rem;
+    > * {
+      margin-left: 10px;
+    }
+  }
+}

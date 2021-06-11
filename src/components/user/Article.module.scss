@@ -1,0 +1,40 @@
+.listArticle {
+  background-color: #f8f9fa;
+  padding: 20px;
+  margin-bottom: 20px;
+  .tagBox {
+    display: flex;
+    margin: 5px 0px;
+    margin-bottom: 40px;
+    > * {
+      margin-right: 5px;
+    }
+  }
+}
+
+.articleList {
+  display: flex;
+  justify-content: space-between;
+}
+.articleListtitle {
+  display: flex;
+}
+.articleListDesc {
+  display: flex;
+  > * {
+    margin-left: 10px;
+  }
+  .ListDescTitle {
+    display: flex;
+    align-items: center;
+  }
+  .ListDescDesc {
+    display: flex;
+    align-items: center;
+    color: #adb5bd;
+    font-size: 0.8rem;
+    > * {
+      margin-left: 10px;
+    }
+  }
+}

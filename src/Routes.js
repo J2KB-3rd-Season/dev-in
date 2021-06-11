@@ -14,6 +14,7 @@ import FindIdContainer from "./pages/findId";
 import FindPwdContainer from "./pages/findPwd";
 import IdConfirmContainer from "./pages/idConfirm";
 import ProfileContainer from "./pages/profile";
+import UserContainer from "./pages/_user";
 
 function Routes(props) {
   return (
@@ -31,6 +32,7 @@ function Routes(props) {
         <Route path="/findPwd" component={FindPwdContainer} exact />
         <Route path="/idConfirm" component={IdConfirmContainer} exact />
         <Route path="/profile" component={ProfileContainer} exact />
+        <Route path="/:user" component={UserContainer} exact />
         <Route path="*" component={ErrorContainer} />
       </Switch>
     </MainLayout>

@@ -5,11 +5,12 @@ export default function Header() {
   return (
     <>
       <header className="wrap-container">
-        <div className={styles.headerTitle}>
-          <h2>
-            <Link to="/">Dev-in</Link>
-          </h2>
-        </div>
+        <Link to="/">
+          <div className={styles.headerTitle}>
+            <img src="/images/Logo.png" alt="" />
+            <h2>Dev-in</h2>
+          </div>
+        </Link>
         <div className={styles.headerMain}>
           <ul>
             <li>
@@ -44,7 +45,6 @@ export default function Header() {
             </li>
           </ul>
         </div>
-
       </header>
     </>
   );

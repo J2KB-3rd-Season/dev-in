@@ -2,8 +2,11 @@ import React from 'react'
 import styles from './Community.module.scss'
 import QueryBox from '../../components/community/QueryBox'
 import ArticleCard from '../../components/community/ArticleBox'
+import ArticleBoxList from '../../components/community/ArticleBoxList'
+import config from '../../config'
 
 export default function Community() {
+  const url = `${config.api}/postlist/posts?size=10`
   return (
     <main className={styles.main}>
       <div className={styles.header}>
@@ -28,10 +31,11 @@ export default function Community() {
           </ul>
         </div>
         <div className={styles.sectionContent}>
+          {/* <ArticleCard />
           <ArticleCard />
           <ArticleCard />
-          <ArticleCard />
-          <ArticleCard />
+          <ArticleCard /> */}
+          <ArticleBoxList url={url}/>
         </div>
       </div>
     </main>
