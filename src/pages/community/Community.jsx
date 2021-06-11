@@ -3,9 +3,10 @@ import styles from './Community.module.scss'
 import QueryBox from '../../components/community/QueryBox'
 import ArticleCard from '../../components/community/ArticleBox'
 import ArticleBoxList from '../../components/community/ArticleBoxList'
+import config from '../../config'
 
 export default function Community() {
-  const url = "http://localhost:8080/postlist/posts?size=10"
+  const url = `${config.api}/postlist/posts?size=10`
   return (
     <main className={styles.main}>
       <div className={styles.header}>
